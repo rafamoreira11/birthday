@@ -24,30 +24,34 @@ function Gallery() {
             <p className="picture-description">Nós crianças</p>
           </article>
           <article className='picture-container'>
-            <img src={CutePhoto} className='img-picture'/>
-            <p className="picture-description">Nós crianças</p>
+            <img src={Coroinhas} className='img-picture'/>
+            <p className="picture-description">Servindo Juntos</p>
           </article>
           <article className='picture-container'>
             <img src={CutePhoto} className='img-picture'/>
             <p className="picture-description">Nós crianças</p>
           </article>
           <article className='picture-container'>
-            <img src={CutePhoto} className='img-picture'/>
-            <p className="picture-description">Nós crianças</p>
+            <img src={Coroinhas} className='img-picture'/>
+            <p className="picture-description">Servindo Juntos</p>
           </article>
           <article className='picture-container'>
             <img src={CutePhoto} className='img-picture'/>
             <p className="picture-description">Nós crianças</p>
           </article>
           <article className='picture-container'>
-            <img src={CutePhoto} className='img-picture'/>
-            <p className="picture-description">Nós crianças</p>
+            <img src={Coroinhas} className='img-picture'/>
+            <p className="picture-description">Servindo Juntos</p>
           </article>
           <article className='picture-container'>
             <img src={CutePhoto} className='img-picture'/>
             <div>
               <p className="picture-description">Nós crianças</p>
             </div>
+          </article>
+          <article className='picture-container'>
+            <img src={Coroinhas} className='img-picture'/>
+            <p className="picture-description">Servindo Juntos</p>
           </article>
         </section>
       </main>
