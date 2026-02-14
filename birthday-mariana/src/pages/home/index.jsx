@@ -6,10 +6,11 @@ import ConfeteRight from '../../assets/confete-right.png'
 import Mariana from '../../assets/princess.png'
 import CutePhoto from '../../assets/CutePhoto.png'
 import Musica from '../../assets/musica.mp3'
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   
-
+  const navigate = useNavigate();
   return (
     
       <div className='conteiner'>
@@ -37,11 +38,9 @@ function Home() {
               <h2>Rafael</h2>
             </article>
             <img src={CutePhoto} className='cutephoto'/>
-            <a class="btn btn-primary" role='button' href='https://heryyy.github.io/bunga-flower/'>Clique aqui!</a>
+            <a class="btn btn-primary" onClick={() => navigate("/teste")}>Clique aqui!</a>
           </section>
         </main>
-        
-          
         
       </div>
   )
