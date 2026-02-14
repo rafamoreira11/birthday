@@ -13,7 +13,7 @@ function Home() {
   const navigate = useNavigate();
   return (
     
-      <div className='conteiner'>
+      <div className='container-home'>
         <header>
           <img src={FlagLeft}/>
           <article className='header-title'>
@@ -38,7 +38,7 @@ function Home() {
               <h2>Rafael</h2>
             </article>
             <img src={CutePhoto} className='cutephoto'/>
-            <a class="btn btn-primary" onClick={() => navigate("/teste")}>Clique aqui!</a>
+            <a class="btn btn-primary" onClick={() => navigate("/gallery")}>Clique aqui!</a>
           </section>
         </main>
         
