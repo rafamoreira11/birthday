@@ -45,7 +45,9 @@ function Gallery() {
           </article>
           <article className='picture-container'>
             <img src={CutePhoto} className='img-picture'/>
-            <p className="picture-description">Nós crianças</p>
+            <div>
+              <p className="picture-description">Nós crianças</p>
+            </div>
           </article>
         </section>
       </main>

@@ -64,3 +64,44 @@
 .img-picture{
     width: 200px;
 }
+
+.picture-description{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.picture-container{
+    border: 1px solid rgba(255, 0, 0, 0.473);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture-container:hover{
+    transition: 0.5s;
+    border: 1px solid rgba(255, 0, 0, 0.884);
+    color: red;    
+}
+
+
+@media (max-width: 414px) {
+    .header-gallery{
+        padding: 10px;
+    }
+
+
+    .gallery-pictures{
+        grid-template-columns: 1fr;
+    }
+
+    .main-gallery h1{
+        font-size: 40pt;
+        text-align: center;
+    }
+
+}
