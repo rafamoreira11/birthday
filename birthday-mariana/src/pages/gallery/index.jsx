@@ -2,6 +2,7 @@ import './style.css'
 import MusicaST from '../../assets/musicaST.mp3'
 import CutePhoto from '../../assets/CutePhoto.png'
 import Coroinhas from '../../assets/Coroinhas.jpeg'
+import Buts from '../../assets/buts.jpg'
 
 function Gallery() {
   
@@ -24,8 +25,8 @@ function Gallery() {
             <p className="picture-description">Nós crianças</p>
           </article>
           <article className='picture-container'>
-            <img src={Coroinhas} className='img-picture'/>
-            <p className="picture-description">Servindo Juntos</p>
+            <img src={Buts} className='img-picture'/>
+            <p className="picture-description">Com as buts</p>
           </article>
           <article className='picture-container'>
             <img src={CutePhoto} className='img-picture'/>
