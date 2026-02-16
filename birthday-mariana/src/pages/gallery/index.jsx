@@ -35,32 +35,6 @@ function Gallery() {
             <img src={Buts} className='img-picture'/>
             <p className="picture-description">Com as buts</p>
           </article>
-          <article className='picture-container'>
-            <img src={CutePhoto} className='img-picture'/>
-            <p className="picture-description">Nós crianças</p>
-          </article>
-          <article className='picture-container'>
-            <img src={Coroinhas} className='img-picture'/>
-            <p className="picture-description">Servindo Juntos</p>
-          </article>
-          <article className='picture-container'>
-            <img src={CutePhoto} className='img-picture'/>
-            <p className="picture-description">Nós crianças</p>
-          </article>
-          <article className='picture-container'>
-            <img src={Coroinhas} className='img-picture'/>
-            <p className="picture-description">Servindo Juntos</p>
-          </article>
-          <article className='picture-container'>
-            <img src={CutePhoto} className='img-picture'/>
-            <div>
-              <p className="picture-description">Nós crianças</p>
-            </div>
-          </article>
-          <article className='picture-container'>
-            <img src={Coroinhas} className='img-picture'/>
-            <p className="picture-description">Servindo Juntos</p>
-          </article>
         </section>
         <section className='homenagem-texts'>
           <h3> <strong>Mariana,</strong></h3>
