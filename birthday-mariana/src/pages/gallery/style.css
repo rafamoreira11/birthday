@@ -21,6 +21,7 @@
 }
 
 .main-gallery{
+    text-align: center;
     position: relative;
 }
 
@@ -42,16 +43,22 @@
     pointer-events: none;
 }
 
-.main-gallery h1{
-    margin-top: 90px;
+.thankyou h1{
+    margin-top: 100px;
     color: rgb(255, 255, 255);
     font-size: 60pt;
 }
 
-.main-gallery h3{
+.thankyou h3{
     margin-top: 20px;
     color: rgba(255, 26, 26, 0.692);
     font-size: 20pt;
+}
+
+.foryou{
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+;
 }
 
 .gallery-pictures{
@@ -86,6 +93,22 @@
     transition: 0.5s;
     border: 1px solid rgba(255, 0, 0, 0.884);
     color: red;    
+}
+
+.homenagem-texts{
+
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.homenagem-texts h4{
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 40px 0 100px 0;
+}
+
+.homenagem-texts h5{
+    margin-bottom: 40px;
 }
 
 
