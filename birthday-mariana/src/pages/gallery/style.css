@@ -96,7 +96,8 @@
 }
 
 .homenagem-texts{
-
+    width: 100%;
+    text-align: center;
     margin-top: 100px;
     color: rgb(255, 255, 255);
 }
@@ -125,6 +126,14 @@
     .main-gallery h1{
         font-size: 40pt;
         text-align: center;
+    }
+
+    .foryou{
+        width: 90%;
+    }
+
+    .homenagem-texts{
+        width: 90%;
     }
 
 }

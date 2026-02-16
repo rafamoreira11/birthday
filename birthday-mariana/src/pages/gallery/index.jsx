@@ -65,7 +65,7 @@ function Gallery() {
         <section className='homenagem-texts'>
           <h3> <strong>Mariana,</strong></h3>
           <p>Você é a pessoa que motiva e ajuda nos meus dias difíceis, alegra nos dias leves e a que mais amo em todos eles.</p>
-          <p>Amar você nesse tempo foi foi a coisa mais natural que ja vivi. Mesmo com tanta correria da nossa rotina, sempre escolhi você!</p>
+          <p>Amar você nesse tempo foi a coisa mais natural que ja vivi. Mesmo com tanta correria da nossa rotina, sempre escolhi você!</p>
           <p>Se depender de mim, vamos durar longos anos.</p>
           <h4>EU TE AMO MARIANA ALMEIDA!</h4>
           <h5>Sempre você.</h5>
