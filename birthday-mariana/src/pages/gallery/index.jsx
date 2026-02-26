@@ -1,7 +1,9 @@
 import './style.css'
 import MusicaST from '../../assets/musicaST.mp3'
 import CutePhoto from '../../assets/CutePhoto.png'
+import Igreja from '../../assets/igreja.jpg'
 import Coroinhas from '../../assets/Coroinhas.jpeg'
+import Casa from '../../assets/Casa.jpg'
 import Buts from '../../assets/buts.jpg'
 
 function Gallery() {
@@ -25,15 +27,32 @@ function Gallery() {
         <section className='gallery-pictures'>
           <article className='picture-container'>
             <img src={Coroinhas} className='img-picture'/>
+            <div className='picture-text'></div>
             <p className="picture-description">Servindo Juntos</p>
           </article>
           <article className='picture-container'>
             <img src={CutePhoto} className='img-picture'/>
-            <p className="picture-description">Nós crianças</p>
+            <div className='picture-text'>
+              <p className="picture-description">Nós crianças</p>
+            </div>
           </article>
           <article className='picture-container'>
             <img src={Buts} className='img-picture'/>
-            <p className="picture-description">Com as buts</p>
+            <div className='picture-text'>
+              <p className="picture-description">Com as buts</p>
+            </div>
+          </article>
+          <article className='picture-container'>
+            <img src={Igreja} className='img-picture'/>
+            <div className='picture-text'>
+              <p className="picture-description">Na missa</p>
+            </div>
+          </article>
+          <article className='picture-container'>
+            <img src={Casa} className='img-picture'/>
+            <div className='picture-text'>
+              <p className="picture-description">But no seu colo</p>
+            </div>
           </article>
         </section>
         <section className='homenagem-texts'>

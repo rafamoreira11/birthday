@@ -70,6 +70,7 @@
 
 .img-picture{
     width: 200px;
+    height: 290px;
 }
 
 .picture-description{
@@ -83,17 +84,22 @@
 }
 
 .picture-container{
-    border: 1px solid rgba(255, 0, 0, 0.473);
+    padding: 1px;
+    cursor: pointer;
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .picture-container:hover{
     transition: 0.5s;
     border: 1px solid rgba(255, 0, 0, 0.884);
-    color: red;    
 }
+
+.picture-text{
+    width: 100%;
+}
+
 
 .homenagem-texts{
     width: 100%;
