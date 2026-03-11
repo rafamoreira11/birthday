@@ -70,7 +70,7 @@
 
 .img-picture{
     width: 200px;
-    height: 290px;
+    height: 355px;
 }
 
 .picture-description{
@@ -116,6 +116,10 @@
 
 .homenagem-texts h5{
     margin-bottom: 40px;
+}
+
+.video-picture{
+    width: 200px;
 }
 
 

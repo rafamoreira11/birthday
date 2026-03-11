@@ -5,6 +5,8 @@ import Igreja from '../../assets/igreja.jpg'
 import Coroinhas from '../../assets/Coroinhas.jpeg'
 import Casa from '../../assets/Casa.jpg'
 import Buts from '../../assets/buts.jpg'
+import Japa from '../../assets/Japa.mp4'
+import Lanche from '../../assets/Lanche.mp4'
 
 function Gallery() {
   
@@ -51,9 +53,22 @@ function Gallery() {
           <article className='picture-container'>
             <img src={Casa} className='img-picture'/>
             <div className='picture-text'>
-              <p className="picture-description">But no seu colo</p>
+              <p className="picture-description">No seu colo</p>
             </div>
           </article>
+          <article className='picture-container'>
+            <video src={Japa} controls className='video-picture'/>
+            <div className='picture-text'>
+              <p className="picture-description">Comendo japa</p>
+            </div>
+          </article>
+          <article className='picture-container'>
+            <video src={Lanche} controls className='video-picture'/>
+            <div className='picture-text'>
+              <p className="picture-description">Lanche pós aula</p>
+            </div>
+          </article>
+          
         </section>
         <section className='homenagem-texts'>
           <h3> <strong>Mariana,</strong></h3>
