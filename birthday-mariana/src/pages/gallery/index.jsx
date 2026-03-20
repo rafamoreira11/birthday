@@ -4,6 +4,8 @@ import CutePhoto from '../../assets/CutePhoto.png'
 import Igreja from '../../assets/igreja.jpg'
 import Coroinhas from '../../assets/Coroinhas.jpeg'
 import Casa from '../../assets/Casa.jpg'
+import Cookie from '../../assets/Cookie.png'
+import Sorvete from '../../assets/Sorvete.png'
 import Buts from '../../assets/buts.jpg'
 import Japa from '../../assets/Japa.mp4'
 import Lanche from '../../assets/Lanche.mp4'
@@ -66,6 +68,18 @@ function Gallery() {
             <video src={Lanche} controls className='video-picture'/>
             <div className='picture-text'>
               <p className="picture-description">Lanche pós aula</p>
+            </div>
+          </article>
+          <article className='picture-container'>
+            <img src={Sorvete} className='img-picture'/>
+            <div className='picture-text'>
+              <p className="picture-description">Tomando sorvete</p>
+            </div>
+          </article>
+          <article className='picture-container'>
+            <img src={Cookie} className='img-picture'/>
+            <div className='picture-text'>
+              <p className="picture-description">Comendo cookie</p>
             </div>
           </article>
           
