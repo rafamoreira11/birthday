@@ -71,15 +71,15 @@ function Gallery() {
             </div>
           </article>
           <article className='picture-container'>
-            <img src={Sorvete} className='img-picture'/>
-            <div className='picture-text'>
-              <p className="picture-description">Tomando sorvete</p>
-            </div>
-          </article>
-          <article className='picture-container'>
             <img src={Cookie} className='img-picture'/>
             <div className='picture-text'>
               <p className="picture-description">Comendo cookie</p>
+            </div>
+          </article>
+          <article className='picture-container'>
+            <img src={Sorvete} className='img-picture'/>
+            <div className='picture-text'>
+              <p className="picture-description">Tomando sorvete</p>
             </div>
           </article>
           
