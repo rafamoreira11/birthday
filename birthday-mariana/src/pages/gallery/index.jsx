@@ -9,9 +9,14 @@ import Sorvete from '../../assets/Sorvete.PNG'
 import Buts from '../../assets/buts.jpg'
 import Japa from '../../assets/Japa.mp4'
 import Lanche from '../../assets/Lanche.mp4'
+import { useEffect } from 'react'
 
 function Gallery() {
   
+  useEffect(()=>{
+    alert("Espero que goste meu bem, fiz com muito amor e carinho, espero que seja tão especial para você quanto é para mim!")
+  }, [])
+
   return (
     <div className='container-gallery'>
       <header className='header-gallery'>
